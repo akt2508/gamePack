@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "415078988219",
+    "firebase_url": "https://chatapp-9af15.firebaseio.com",
+    "project_id": "chatapp-9af15",
+    "storage_bucket": "chatapp-9af15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:415078988219:android:928e0b81940ac222a9ec9e",
+        "android_client_info": {
+          "package_name": "com.example.hambola"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "415078988219-advkf1lckgir9d67ip6gg8roili5kneq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hambola",
+            "certificate_hash": "556f43f19163c2a65f101ab8b3e268212accf7bb"
+          }
+        },
+        {
+          "client_id": "415078988219-lu465fi8mmshujlpfkndu53dv200p82e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuiZYttfrfuHSCJrB_gJwIpQmxHvJfxTA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "415078988219-lu465fi8mmshujlpfkndu53dv200p82e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Agile_Dev</string>
+    <string name="create">Create Game</string>
+    <string name="title_activity_drawer">drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="astar">This is an application of A* algorithm which is an advanced version of Dijkstra algorithm, these algorithms are used to find shortest path between two given point or cities. I have applied this algorithm in form of a grid, the code and algorithm is not 100% efficient, the data structure I\'ve used is ArrayList</string>
+
+    <string name="menu_home">Home</string>
+
+    <string name="facebook_application_id" translatable="false">574343263479239</string>
+    <string name="fb_login_protocol_scheme">fb574343263479239</string>
+
+    <string name="menu_gallery">Unlock Chart</string>
+    <string name="menu_slideshow">Logout</string>
+
+    <string name="home_second">Home Second</string>
+</resources>
