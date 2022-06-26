@@ -511,10 +511,10 @@ public class pathfinder extends AppCompatActivity
 
                     LinearLayout root = (LinearLayout)v;
 
-                    for(int harshal=0; harshal<root.getChildCount();harshal++)
+                    for(int aman=0; aman<root.getChildCount();aman++)
                     {
 
-                        LinearLayout child_root = (LinearLayout) root.getChildAt(harshal);
+                        LinearLayout child_root = (LinearLayout) root.getChildAt(aman);
 
                         for(int dam =0;dam < child_root.getChildCount();dam++)
                         {
@@ -536,7 +536,7 @@ public class pathfinder extends AppCompatActivity
                                for(Cell cell : cells)
                                 {
 
-                                    if(cell.getX() == harshal && cell.getY() == dam)
+                                    if(cell.getX() == aman && cell.getY() == dam)
                                     {
                                         cell.setState(-1);
                                     }
@@ -604,10 +604,10 @@ public class pathfinder extends AppCompatActivity
 
                         LinearLayout root = (LinearLayout)v;
 
-                        for(int harshal=0; harshal<root.getChildCount();harshal++)
+                        for(int aman=0; aman<root.getChildCount();aman++)
                         {
 
-                            LinearLayout child_root = (LinearLayout) root.getChildAt(harshal);
+                            LinearLayout child_root = (LinearLayout) root.getChildAt(aman);
 
                             for(int dam =0;dam < child_root.getChildCount();dam++)
                             {
@@ -634,7 +634,7 @@ public class pathfinder extends AppCompatActivity
                                         for(Cell cell : cells)
                                         {
 
-                                            if(cell.getX() == harshal && cell.getY() == dam)
+                                            if(cell.getX() == aman && cell.getY() == dam)
                                             {
                                                 cell.setState(1);
                                                 userPath.add(cell);
@@ -799,10 +799,10 @@ public class pathfinder extends AppCompatActivity
 
                     LinearLayout root = (LinearLayout)v;
 
-                    for(int harshal=0; harshal<root.getChildCount();harshal++)
+                    for(int aman=0; aman<root.getChildCount();aman++)
                     {
 
-                        LinearLayout child_root = (LinearLayout) root.getChildAt(harshal);
+                        LinearLayout child_root = (LinearLayout) root.getChildAt(aman);
 
                         for(int dam =0;dam < child_root.getChildCount();dam++)
                         {
@@ -824,7 +824,7 @@ public class pathfinder extends AppCompatActivity
                                 for(Cell cell : cells)
                                 {
 
-                                    if(cell.getX() == harshal && cell.getY() == dam)
+                                    if(cell.getX() == aman && cell.getY() == dam)
                                     {
                                         cell.setState(-1);
                                     }

@@ -313,7 +313,7 @@ public class HomeFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_VIEW,
-                        Uri.parse("https://www.instagram.com/_._harshal_.__/"));
+                        Uri.parse("https://www.instagram.com/amxn_25"));
                 startActivity(intent);
             }
         });
@@ -323,7 +323,7 @@ public class HomeFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_VIEW,
-                        Uri.parse("https://www.facebook.com/harshal.singht"));
+                        Uri.parse("https://www.facebook.com/"));
                 startActivity(intent);
             }
         });
